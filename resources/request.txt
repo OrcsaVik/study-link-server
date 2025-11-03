@@ -1,0 +1,15 @@
+需要先创建数据库 exam_system
+
+如果要启动项目 需要修改
+
+{@link src/main/resources/application.yml}
+
+里面依赖服务的url： 改为你本机部署的服务url
+
+依赖服务：
+- redis
+- MYSQL
+- minio
+- font(前端页面) 不强制要求 不影响启动
+
+
